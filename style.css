@@ -122,20 +122,19 @@ main {
 }
 
 /* SCROLL TO THE TOP */
-.scroll-to-top{
+.scroll-to-top {
   background-color: white;
   padding: 10px;
   border-radius: 50px;
   position: fixed;
   bottom: 70px;
   right: 30px;
+  cursor: pointer;
 }
 
-.scroll-to-top:hover{
+.scroll-to-top:hover {
   opacity: 0.6;
 }
-
-
 
 /*   SECTION  HOME */
 
@@ -231,15 +230,15 @@ main {
 .contact-links {
   margin-top: 20px;
   font-size: 25px;
-  display: flex;  
+  display: flex;
   gap: 30px;
 }
 
-.fab{
-  color:white;
+.fab {
+  color: white;
 }
 
-.fab:hover{
+.fab:hover {
   opacity: 0.6;
 }
 
@@ -254,8 +253,6 @@ footer {
   font-size: 18px;
 }
 
-footer a{
+footer a {
   color: inherit;
 }
-
-
